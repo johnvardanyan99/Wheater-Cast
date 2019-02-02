@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="App">
+		<div>
+			<div class="form">
+				<input type="text" name="" placeholder="city" id="input">
+				<button onclick="gettingWeather()"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</div>
+			<p id="errorMessage"></p>
+			<ul class="informationList">
+				<li>
+					<span id="city"></span>
+					<span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					<span>City</span>
+				</li>
+				<li>
+					<span id="country"></span>
+					<span><i class="fa fa-compass" aria-hidden="true"></i></span>
+					<span>Country</span>
+				</li>
+				<li>
+					<span id="temp"></span>
+					<span><i class="fa fa-thermometer-empty" aria-hidden="true"></i></span>
+					<span>Temperature</span>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<script src="JavaScript/main.js"></script>
+</body>
+</html>
